@@ -8,7 +8,7 @@ public static void main(String[] args) {
     System.out.print("Masukan tahun: ");
     int tahun = sc16.nextInt();
     if((tahun % 400) == 0){
-        if ((tahun % 100) != 0)
+        if ((tahun % 100) == 0)
             System.out.println("Tahun kabisat");
     } 
     else
